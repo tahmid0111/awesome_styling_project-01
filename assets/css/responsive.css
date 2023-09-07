@@ -1,0 +1,118 @@
+    /*		Tablet Layout: 768px. */
+    @media only screen and (min-width: 1400px) and (max-width: 1920px) {
+        .small-content-b{
+            top: 80%;
+        }
+        .big-content-b{
+            top: 90%;
+        }
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .nav-area li a{
+            padding: 0px 20px 0px;
+        }
+        .hero-area h1{
+            width: 75%;
+            margin-left: 12%;
+        }
+        .hero-area p{
+            width: 40%;
+            margin-left: 30%;
+        }
+        .small-content-b{
+            top: 135px;
+        }
+        .big-content-b{
+            top: 280px;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single-hero{
+            width: 100%;
+        }
+        .single-hero h3{
+            font-size: 22px;
+        }
+        .top-area{
+            margin-bottom: 10%;
+        }
+        .nav-area li a{
+            padding: 0px 10px 0px;
+        }
+        .hero-area h1{
+            width: 85%;
+            margin-left: 8%;
+        }
+        .hero-area p{
+            width: 50%;
+            margin-left: 25%;
+        }
+        .programme-header p{
+            width: 50%;
+            margin-left: 25%;
+        }
+        .small-content-b{
+            top: 95px;
+        }
+        .big-content-b{
+            top: 200px;
+        }
+        .small-content{
+            top: 10px;
+        }
+        .big-content{
+            top: 10px;
+        }
+        .small-content h5{
+            font-size: 16px;
+        }
+        .big-content h5{
+            font-size: 16px;
+        }
+        .small-content span{
+            font-size: 14px;
+        }
+        .big-content span{
+            font-size: 14px;
+        }
+    
+    }
+    /*		Mobile Layout: 320px. */
+    @media only screen and (max-width: 767px) {
+        .nav-area{
+            display: none;
+        }
+        .hero-area h1{
+            width: 100%;
+            margin-left: 0;
+        }
+        .hero-area p{
+            width: 100%;
+            margin-left: 0;
+        }
+        .programme-header p{
+            width: 100%;
+            margin-left: 0;
+        }
+        .small-content-b{
+            top: 80%;
+        }
+        .big-content-b{
+            top: 90%;
+        }
+        
+    }
+    
+    
+    
+    /*		Wide Mobile Layout: 480px. */
+    @media only screen and (max-width: 480px){
+        .small-content-b{
+            top: 70%;
+        }
+        .big-content-b{
+            top: 80%;
+        }
+ 
+    
+    }
